@@ -1,0 +1,43 @@
+.content-main{
+    display: flex;
+    gap: 15px;
+    padding: 15px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.campo_pesquisa{
+    padding: 15px 100px;
+}
+
+.campo_pesquisa input{
+    width: 400px;
+    border: 1px solid palevioletred;
+}
+
+.botao_pesquisa{
+    height: 30px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+
+}
+.botao_pesquisa:focus {
+    outline: 1px solid rgb(255, 138, 239);  
+   }
+.botao_pesquisa.visited {
+    outline: 1px solid rgb(247, 189, 232);   
+}
+
+.lupa{
+    width: 23px;
+    margin-top: 5px;
+}
+
+.quadradinho{
+    display: flex;
+}
+
+.text-resultados{
+    font-size: 15px;
+    color: rgb(90, 87, 87);
+}
