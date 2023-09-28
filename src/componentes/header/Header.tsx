@@ -1,7 +1,6 @@
 import './Header.css'
 import BarbieLogo from '..//img/Barbie_Logo.svg.png';
-import Link from './link/Link'
-
+import LinkNav from '../linknav/LinkNav'
 function Header(){
     return (
         <header>
@@ -12,16 +11,16 @@ function Header(){
                 <ul>
            
                     <li>
-                    <Link url='/' texto='Home'/>
+                    <LinkNav url='/' texto='Home'/>
                     </li>
                     <li>
-                    <Link url='/noticias' texto='Notícias'/>
+                    <LinkNav url='/noticias' texto='Notícias'/>
                     </li>
                     <li>
-                    <Link url='/sobre' texto='Sobre'/>
+                    <LinkNav url='/sobre' texto='Sobre'/>
                     </li>
                     <li>
-                    <Link url='/contato' texto='Contato'/>
+                    <LinkNav url='/contato' texto='Contato'/>
                     </li>
                 </ul>
             </nav>
