@@ -2,7 +2,7 @@ import './Filme.css'
 export default function Filme(props:FilmeProps){
     return(
         <div className="filme-content">
-         <div className='foto_filme'>
+         <div className='imagem_filme'>
              <img className="img-filme" src={props.imagem} alt="" />
          </div>
            

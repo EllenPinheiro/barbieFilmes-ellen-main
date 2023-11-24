@@ -9,12 +9,12 @@
     box-shadow: 0px 0px 13px 4px rgb(206, 201, 203)
     
 }
-.foto_filme{
+.imagem_filme{
     min-height: 460px;
     display: flex;
     align-items: center;
 }
-.foto_filme>img{
+.imagem_filme>img{
     width: 100%;
     max-height: 460px;
     overflow: hidden;
